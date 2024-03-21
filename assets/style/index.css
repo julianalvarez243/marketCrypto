@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+:root {
+    --txt-lg: 1.75rem;
+    /* 28px */
+    --txt-md: 1.375rem;
+    /* 22px */
+    --txt-base: 1.125rem;
+    /* 18px */
+    --txt-sm: 0.875rem;
+    /* 14px */
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px); /* Sube 10 píxeles */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #44328D;
+    color: wheat;
+    font-family: "Offside", sans-serif;
+    overflow-y: hidden; /* desactiva la scrollbar de mierda */
+
+}
+
+a {
+    color: rgb(243, 192, 96);
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+
+}
+
+.navbar h1 {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.menuNav {
+    width: auto;
+
+}
+
+.menuNav ul {
+    padding: 0px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.menuNav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.menuNav ul li:nth-child(6) {
+    padding-right: 0px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.introductionIndex {
+    display: flex;
+    
+}
+
+.introductionIndex img {
+    width: 25%;
+    animation: floating 2s infinite ease;
+    filter: drop-shadow(6px 6px 7px black);
+}
+
+.textIntroduction h2{
+    text-align: right;
+    margin-right: 50px;
+}
+
+.textIntroduction p{
+    text-align: justify;
+    max-width: 80%;
+    float: right;
+    margin-right: 50px;
+}
+
+.listFooter {
+    text-align: center;
+
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    
+}
+
+.listFooter ul {
+
+}
+
+.listFooter ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+}
+
+.listFooter ul li:nth-child(4) {
+    padding-right: 0px;
+}
+
+.credits {
+    text-align: center;
+}
+
+.credits p {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #352154;
+    height: 110px;
+    text-align: center;
+}
