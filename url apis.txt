@@ -1,6 +1,6 @@
-best crypto: https://docs.coingecko.com/v3.0.1/reference/coins-markets
-crypto search data: https://docs.coingecko.com/v3.0.1/reference/coins-id
-best exchange: https://docs.coingecko.com/v3.0.1/reference/exchanges
-categories crypto: https://docs.coingecko.com/v3.0.1/reference/coins-categories
-analysis crypto: https://rapidapi.com/apidojo/api/investing-cryptocurrency-markets (get-analysis)
-news crypto: https://rapidapi.com/apidojo/api/investing-cryptocurrency-markets (get-news)
+best crypto: https://docs.coingecko.com/v3.0.1/reference/coins-markets css ✅
+crypto search data: https://docs.coingecko.com/v3.0.1/reference/coins-id css ✅
+best exchange: https://docs.coingecko.com/v3.0.1/reference/exchanges css ✅
+categories crypto: https://docs.coingecko.com/v3.0.1/reference/coins-categories css ✅ 
+analysis crypto: https://rapidapi.com/apidojo/api/investing-cryptocurrency-markets (get-analysis) css ✅ 
+news crypto: https://rapidapi.com/apidojo/api/investing-cryptocurrency-markets (get-news) css ✅

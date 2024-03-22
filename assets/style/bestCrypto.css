@@ -1,14 +1,23 @@
-.inputSearcher {
+.bestsCryptos {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.currencySearcher {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.inputSearcher input {
+.currencySearcher input {
     height: 20px;
     margin-top: 10px;
 }
 
-.inputSearcher button {
+.currencySearcher button {
     border: 0px;
     height: 25px;
     border-top-left-radius: 10px;
@@ -17,24 +26,19 @@
 
 }
 
-.inputSearcher button:hover {
+.currencySearcher button:hover {
     background-color: #352154;
     color: wheat;
 }
 
-.mainResults {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    margin-bottom: 50px;
-}
 
 .card {
     margin: 0 auto;
     background-color: #352154;
-    max-width: 20rem;
     border-radius: 10px;
     padding: 5px;
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
 }
 
 .card img {
