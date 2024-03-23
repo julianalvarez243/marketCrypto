@@ -7,12 +7,14 @@
     margin: 0 auto;
 }
 
-.categorie img {
-    width: auto;
-    max-width: 15%;
+.categorie img {    
+    width: 8%;
     padding-right: 40px;
 }
 
+p.top3 {
+    margin-bottom: 10px;
+}
 .categorie p {
     margin-top: 20px;
     width: 60%;

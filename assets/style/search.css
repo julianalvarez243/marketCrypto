@@ -40,3 +40,7 @@
 .card img {
     max-width: 100px;
 }
+
+.loader {
+    display: none   ;
+}

@@ -31,18 +31,13 @@
     <main>
         <div class="inputSearcher">
             <label for="">Write the crypto for see information</label> <br>
-            <input type="search" required placeholder="Bitcoin">
-            <button onclick="">Search</button>
+            <input class="inputSearcherValue" type="text" required placeholder="Bitcoin">
+            <button onclick="searchCrypto()">Search</button>
         </div>
 
         <div class="mainResults">
-            <div class="card">
-                <img src="../img/cripto.png"  alt="Crypto logo">
-                <h3>Title example</h3>
-                <p class="price">Price: $65.244</p>
-                <p class="marketCap">Market capital: $1231232132</p>
-                <p class="priceChange">Variation 24h: %4,43 ⭣⭡</p>
-                <p class="oficialWeb">Web: <a target="_blank" href="http://www.bitcoin.org">http://www.bitcoin.org</a></p> 
+            <div class="loader">
+                <img src="../img/loader.gif" alt="">
             </div>
         </div>
     </main>
@@ -72,6 +67,7 @@
 
         dateText.innerHTML = 'All rights reserved &copy;. ' + year;
     </script>
+    <script src="../js/search.js"></script>
 </div>
 </body>
 </html>
